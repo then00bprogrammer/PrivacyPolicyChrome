@@ -44,3 +44,10 @@ function div()
         document.getElementById("ans").value = res;
     }
 }
+function daynknight(){
+    document.body.style.backgroundColor="rgb(246,248,250)";
+}
+function knight(){
+    document.body.style.backgroundColor="black";
+    document.getElementById('c').style.color="black";
+}
