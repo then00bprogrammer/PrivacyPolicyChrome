@@ -118,5 +118,6 @@ i.fas.fa-calculator{
     .signs{
         border-left: none;
         border-top: 2px solid white;
+        justify-content:center;
     }
 }
