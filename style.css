@@ -120,5 +120,6 @@ i.fas.fa-calculator{
         border-top: 2px solid white;
         justify-content:center;
         width: 100vw;
+        padding-left:0px;
     }
 }
