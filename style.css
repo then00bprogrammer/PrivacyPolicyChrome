@@ -88,17 +88,17 @@ i.fas.fa-divide{
 }
 i.fa:hover{
     cursor: pointer;
-    background-color: white;
+    background-color: rgb(64,64,64);
     font-weight: bolder;
 }
 i.fas.fa-times:hover{
     cursor: pointer;
-    background-color: white;
+    background-color: rgb(64,64,64);
     font-weight: bolder;
 }
 i.fas.fa-divide:hover{
     cursor: pointer;
-    background-color: white;
+    background-color: rgb(64,64,64);
     font-weight: bolder;
 }
 i.fas.fa-calculator{
