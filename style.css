@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Source+Serif+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.main_cont{
+    width: 100vw;
+    background-color: rgba(0,0,0,0.97);
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    letter-spacing: 5px;
+    color: white;
+}
+.inp{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color: black;
+    border: 2px solid green;
+    border-radius: 5px;
+    height: 40px;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+.signs{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* grid-column-gap: 50px; */
+    width: 30%;
+    height: 50%;
+    margin: auto auto;
+    border-left: 2px solid white;
+    padding-left: 20px;
+}
+i.fa.fa-plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i.fa.fa-minus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i.fas.fa-times{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i.fas.fa-divide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-calculator{
+    grid-column: 1/span 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+i.fa.fa-plus{
+    border: 2px solid red;
+    border-top-left-radius: 10px;
+}
+i.fa.fa-minus{
+    border: 2px solid red;
+    border-top-right-radius: 10px;
+}
+i.fas.fa-times{
+    border: 2px solid red;
+    border-bottom-left-radius: 10px;
+}
+i.fas.fa-divide{
+    border: 2px solid red;
+    border-bottom-right-radius: 10px;
+}
+i.fa:hover{
+    cursor: pointer;
+    background-color: white;
+    font-weight: bolder;
+}
+i.fas.fa-times:hover{
+    cursor: pointer;
+    background-color: white;
+    font-weight: bolder;
+}
+i.fas.fa-divide:hover{
+    cursor: pointer;
+    background-color: white;
+    font-weight: bolder;
+}
+i.fas.fa-calculator{
+    background-color: rgba(black, black, black, 0.1);
+    z-index: 1;
+    border-radius: 12%;
+}
+
+@media screen and (max-width: 800px) {
+    .main_cont{
+        flex-direction: column;
+    }
+    .inp{
+        height: 30vh;
+        padding-bottom: 30px;
+        width: 100vw;
+    }
+    .signs{
+        border-left: none;
+        border-top: 2px solid white;
+    }
+}
