@@ -49,5 +49,4 @@ function daynknight(){
 }
 function knight(){
     document.body.style.backgroundColor="black";
-    document.getElementById('c').style.color="black";
 }
