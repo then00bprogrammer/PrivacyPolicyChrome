@@ -11,7 +11,7 @@ function add()
         document.getElementById("ans").value = res;
     }
 }
-function minusadd()
+function minus()
 {
     n1 = parseFloat(document.getElementById("fn").value);
     n2 = parseFloat(document.getElementById("sn").value);
