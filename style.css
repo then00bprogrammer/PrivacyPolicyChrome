@@ -36,7 +36,7 @@ input{
 .signs{
     display: grid;
     grid-template-columns: auto auto;
-    /* grid-column-gap: 50px; */
+    /* grid-column-gap: 50px; hope */
     width: 30%;
     height: 50%;
     margin: auto auto;
